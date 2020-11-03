@@ -1,0 +1,71 @@
+#container {
+    width: 650px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 50px;
+    padding-left: 80px;
+    background-color: white;
+
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+#top{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top h3{
+	margin-top: 15px;
+    font-size: 38px;
+    line-height: 1px;
+}
+
+#top p{
+    font-size: 18px;
+    line-height: 1px;
+}
+
+input[type="text"]{
+    border:1px solid rgba(148,214,173);
+    margin: 2px;
+    padding: 13px;
+    width: 372px;
+    font-size: 18px;
+}
+
+input[type="password"],input[type="email"]{
+    width: 372px;
+    margin: 2px;
+    padding: 13px;
+    border:1px solid rgba(148,214,173);
+    font-size: 18px;
+    
+}
+
+input[type="text"]:hover{
+    border-radius: 8px;
+    border: 1px solid rgba(109, 109, 223);
+}
+
+input[type="password"]:hover,input[type="email"]:hover{
+    border-radius: 8px;
+    border: 1px solid rgba(109, 109, 223);
+}
+
+input[type="submit"]{
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(39,32,32);
+}
+
+#para{
+    font-size: 10px;
+    color: #854632;
+    font-weight: bold;
+    font-family: Verdana,times new roman, Helvetica;
+
+}
