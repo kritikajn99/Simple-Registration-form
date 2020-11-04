@@ -61,6 +61,13 @@ input[type="submit"]{
     font-weight: bold;
     color: rgba(39,32,32);
 }
+input[type="button"]{
+    padding: 10px 35px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(39,32,32);
+}
 
 #para{
     font-size: 10px;
