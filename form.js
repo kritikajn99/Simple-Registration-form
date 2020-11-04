@@ -2,11 +2,12 @@
 
 
 function validation(){
-    let userName = document.getElementById("user").value;
-    let userMobile = document.getElementById("mob").value;
-    let userEmail = document.getElementById("mail").value;
-    let userPass = document.getElementById("pass").value;
-    let userCnfPass = document.getElementById("cnf-pass").value;
+
+	let userName = document.getElementById("user").value;
+	let userMobile = document.getElementById("mob").value;
+	let userEmail = document.getElementById("mail").value;
+	let userPass = document.getElementById("pass").value;
+	let userCnfPass = document.getElementById("cnf-pass").value;
 
     //regx expression for all fields
 
@@ -72,13 +73,15 @@ function validation(){
 }
 function success(){
 	let userName = document.getElementById("user").value;
-    let userMobile = document.getElementById("mob").value;
-    let userEmail = document.getElementById("mail").value;
-    let userPass = document.getElementById("pass").value;
-    let userCnfPass = document.getElementById("cnf-pass").value;
+	let userMobile = document.getElementById("mob").value;
+	let userEmail = document.getElementById("mail").value;
+	let userPass = document.getElementById("pass").value;
+	let userCnfPass = document.getElementById("cnf-pass").value;
+
 	
 	if(userName  == "" || userMobile == "" || userEmail  == "" || userPass == "" || userCnfPass == "")
 		window.alert("Registration unsuccessful! The form must be filled out completely"); 
 	else
 		window.alert("Registration successful!");
+
 }
